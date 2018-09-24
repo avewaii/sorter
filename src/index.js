@@ -1,10 +1,10 @@
 class Sorter {
   constructor() {
-    // your implementation
+    myObject = [];
   }
 
   add(element) {
-    // your implementation
+    myObject.add(element);
   }
 
   at(index) {
@@ -16,7 +16,7 @@ class Sorter {
   }
 
   toArray() {
-    // your implementation
+    return myObject.toArray();
   }
 
   sort(indices) {
